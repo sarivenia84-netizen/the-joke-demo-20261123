@@ -1,6 +1,6 @@
 [![make.fun · the-joke-about-the-demo-20261123](https://make.fun/badge/the-joke-about-the-demo-20261123-0112.svg)](https://make.fun/bounty/the-joke-about-the-demo-20261123-0112?utm_source=github&utm_medium=readme&utm_campaign=the-joke-about-the-demo-20261123)
-[![rank](https://make.fun/badge/the-joke-about-the-demo-20261123/sarivenia84-netizen/the-joke-demo-20261123/rank.svg)](https://make.fun/bounty/the-joke-about-the-demo-20261123-0112/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=the-joke-about-the-demo-20261123)
-[![reward](https://make.fun/badge/the-joke-about-the-demo-20261123/sarivenia84-netizen/the-joke-demo-20261123/reward.svg)](https://make.fun/bounty/the-joke-about-the-demo-20261123-0112?utm_source=github&utm_medium=readme&utm_campaign=the-joke-about-the-demo-20261123)
+[![rank](https://make.fun/badge/the-joke-about-the-demo-20261123-0112/sarivenia84-netizen/the-joke-demo-20261123/rank.svg)](https://make.fun/bounty/the-joke-about-the-demo-20261123-0112/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=the-joke-about-the-demo-20261123)
+[![reward](https://make.fun/badge/the-joke-about-the-demo-20261123-0112/sarivenia84-netizen/the-joke-demo-20261123/reward.svg)](https://make.fun/bounty/the-joke-about-the-demo-20261123-0112?utm_source=github&utm_medium=readme&utm_campaign=the-joke-about-the-demo-20261123)
 
 # The fallback is now the product
 
