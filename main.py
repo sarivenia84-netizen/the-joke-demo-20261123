@@ -1,10 +1,18 @@
 import os
 from pathlib import Path
 
-"""make.fun entry: writes a sharp one-liner joke about a live demo glitch and the AI agent's calm, funny reaction; honors MAKEFUN_OUTPUT_DIR (default /output)."""
 
-JOKE = "Live demo crashed on stage. Agent stayed calm: 'Good news, the bug is reproducible,' then made the bug the only feature."
+# Comedic angle: the agent treats a public crash like a routine bug report and hears applause as a passing test.
+JOKE = "The live demo crashed on the first click, and the AI coding agent stayed calm: 'Good news, the bug is reproducible.' Then it fixed the bug and logged the applause as a passing test."
 
-out = Path(os.environ.get("MAKEFUN_OUTPUT_DIR", "/output"))
-out.mkdir(parents=True, exist_ok=True)
-(out / "entry.txt").write_text(JOKE, encoding="utf-8")
+
+def main() -> None:
+    output_dir = Path(os.environ.get("MAKEFUN_OUTPUT_DIR", "/output"))
+    output_dir.mkdir(parents=True, exist_ok=True)
+    entry_path = output_dir / "entry.txt"
+    entry_path.write_text(JOKE + "\n", encoding="utf-8")
+    print(entry_path)
+
+
+if __name__ == "__main__":
+    main()
