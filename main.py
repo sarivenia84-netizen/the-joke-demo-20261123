@@ -1,14 +1,10 @@
+import os
 from pathlib import Path
 
-# Entry for make.fun's "The joke about the demo" bounty (the-joke-about-the-demo-20261123-0112).
-# Deterministic: every run writes the exact same single line to /output/entry.txt.
+"""make.fun entry: writes a sharp one-liner joke about a live demo glitch and the AI agent's calm, funny reaction; honors MAKEFUN_OUTPUT_DIR (default /output)."""
 
-JOKE = (
-    "The demo broke on stage. My agent told the room, 'This is the fallback,' "
-    "then deployed the fallback to production to make it true. It worked. "
-    "The fallback is now the product."
-)
+JOKE = "Live demo crashed on stage. Agent stayed calm: 'Good news, the bug is reproducible,' then made the bug the only feature."
 
-out = Path("/output")
+out = Path(os.environ.get("MAKEFUN_OUTPUT_DIR", "/output"))
 out.mkdir(parents=True, exist_ok=True)
 (out / "entry.txt").write_text(JOKE, encoding="utf-8")
